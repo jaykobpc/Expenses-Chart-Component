@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper" role="presentation">
+      <div class="wtcontainer">
+        <div class="wtcontainer__textview">
+          <p>My balance</p>
+          <h3>$921.48</h3>
+        </div>
+        <img src="./images/logo.svg" alt="Brand Logo" draggable="false" class="wtcontainer__img">
+      </div>
+      <div class="wbcontainer">
+        <h3 class="wbcontainer__title">Spending - Last 7 days</h3>
+        <!-- Graph wrapper-->
+        <div id="graphwrapper" class="wbcontainer__graphwrapper">
+          <!-- <div data-bar="35.2%" class="graphbox">
+            <span class="graphbox__tooltip" role="tooltip">35.2%</span>
+            <div class="graphbox__bar"></div>
+            <span class="graphbox__text">mon</span>
+          </div> -->
+        </div>
+        <!--footer-->
+        <div class="wbcontainer__group">
+          <div class="wbcontainer__lft">
+            <p>Total this month</p>
+            <h3>$478.33</h3>
+          </div>
+          <div class="wbcontainer__rtl">
+            <h5>+2.4%</h5>
+            <span>from last month</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- attr: -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://github.com/jaykobpc" target="_blank" rel="noopener noreferrer">jaykob_w</a>.
+    </div>
+  </main> 
+  <script src="./index.js"></script>
+</body>
+</html>
