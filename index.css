@@ -47,7 +47,7 @@ main {
 
 .wrapper {
     margin: 0 auto;
-    width: 420px;
+    width: 450px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 20vh;
+    height: 25vh;
     position: relative;
 }
 
